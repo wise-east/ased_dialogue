@@ -1,6 +1,6 @@
 default:
     model: gpt2
-    model_checkpoint: gpt2_dd_yesand/
+    model_checkpoint: gpt2_questions_scratch/ # model checkpoint. This folder must be in the same folder as app.py
     no_sample: True # Set to use greedy decoding instead of sampling
     max_length: 128 # Maximum length of the output utterances
     min_length: 5 # Minimum length of the output utterances
