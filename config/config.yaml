@@ -1,0 +1,17 @@
+default:
+    model: gpt2
+    model_checkpoint: gpt2_dd_yesand/
+    no_sample: True # Set to use greedy decoding instead of sampling
+    max_length: 128 # Maximum length of the output utterances
+    min_length: 5 # Minimum length of the output utterances
+    seed: 42 # Set random seed 
+    temperature: 0.7 # Sampling softmax temperature
+    top_k: 0 # Filter top-k tokens before sampling (<=0: no filtering)
+    top_p: 0.9 # Nucleus filtering (top-p) before sampling (<=0.0: no filtering)
+    no_repeat_length: 5 #Provide length from end of current output that should not be repeated for new token added to the current output
+  
+mysql: 
+    host: "ffpr2.cyz4cjsoiex6.us-east-2.rds.amazonaws.com"
+    user: "root"
+    passwd: "!Justinc790"
+    database: "ffpr"

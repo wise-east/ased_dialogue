@@ -1,0 +1,8 @@
+test/*
+.vscode/*
+__pycache__/*
+*/*.out
+*/events.out.*
+huggingface/*
+templates/*
+config/*
