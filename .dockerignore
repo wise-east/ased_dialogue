@@ -6,3 +6,5 @@ __pycache__/*
 huggingface/*
 templates/*
 config/*
+gpt2*/
+*.zip

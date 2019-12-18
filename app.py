@@ -41,7 +41,7 @@ def api():
   if request.method == "GET": 
     if request.args: 
       history_text = request.args.getlist("input")
-      print(history_text)
+      # print(history_text)
 
   if history_text is not None: 
     print(f"Received valid request through API - \"input\": {history_text}")
